@@ -2,7 +2,7 @@
 #include <stdio.h>
 #include <stdlib.h>
 
-void yyerror(char *s);
+void yyerror(const char *s);
 int yylex();
 %}
 
